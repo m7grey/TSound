@@ -1,5 +1,6 @@
 body {
 	margin-top: 100px;
+	font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,13 +44,34 @@ p {
 	text-align: center;
 	margin-top: 40px;
 }
-#testimonial p{
+
+#testimonial p {
 	font-size: 32px;
 	font-family: 'Josefin Sans';
 	color: #000;
 }
 
-#testimonial p.customer{
+#testimonial p.customer {
 	font-size: 20px;
 	color: #666;
+}
+
+#info1 .info-right {
+	margin-top: 100px;
+}
+
+#info2 {
+	margin: 60px 0 60px 0;
+}
+
+#contact {
+	background: url("../img/image3.png");
+	padding: 40px;
+	color: #fff;
+	border-top: #333 5px solid;
+	border-bottom: #333 5px solid;
+}
+
+footer {
+	padding: 30px;
 }
