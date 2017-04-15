@@ -2,6 +2,10 @@ body {
 	margin-top: 100px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Poppins;
+}
+
 .navbar-default {
 	background: #fff;
 	border: 0;
@@ -9,8 +13,17 @@ body {
 	opacity: 0.7;
 }
 
+p {
+	font-family: Roboto;
+}
+
 .navbar-brand {
 	font-size: 20px;
 	color: #000;
 	font-weight: bold;
+}
+
+#showcase h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
 }
